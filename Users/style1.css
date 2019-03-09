@@ -1,0 +1,21 @@
+#userheader
+		{
+		  background-color:orange;	
+   		  width:100%;
+		  height:140px;
+		  text-align:center;
+		  font-size:60px;
+          	  	  
+		}
+#footer
+		{
+		  background-color:black;	
+		  color:white;
+   		  width:100%;
+		  height:60px;	
+		  padding-left:30px;
+		  clear:both;
+		  margin-top:500px;
+		  font-weight:bold;	
+		}
+  

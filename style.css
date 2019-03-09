@@ -1,0 +1,981 @@
+<html>
+<head>
+
+<style> 
+
+.classBod
+		{
+		 border-color:black;
+		 border-style:solid;
+		}
+
+#d1
+		{
+		  background-color:orange;	
+		  height:140px;
+		  text-align:center;
+		  font-size:50px;		
+		}
+#d2
+		{
+		  background-color:orange;	
+   		  width:100%;	
+		  position:relative;
+		  font-size:18px;
+		  top:730px;
+		  clear:both;
+		}
+
+#d3
+		{
+  		  padding-left:30px;		 
+		  width:95%;
+		  font-size:18px;
+		  
+		}
+
+a:link
+		{
+		  color:white;
+	        }
+a:visited
+		{
+		  color:white;
+		}
+#d4
+		{
+		  font-size:18px;
+		  text-align:center;
+		  word-spacing:3px;
+		  margin:5px;			
+		}
+#d5
+		{
+ 		  position:absolute;
+		  left:115px;		
+		  color:black;
+		  font-size:18px;
+		  border:2px dashed black;	
+		}
+#gallery
+		{
+	
+		 height:450px;
+		 -webkit-animation-name:g1;
+	 	 -webkit-animation-duration:20s;
+	 	 -webkit-animation-iteration-count:infinite;
+		 -moz-animation-name:g1;
+	 	 -moz-animation-duration:20s;
+	 	 -moz-animation-iteration-count:infinite;
+		 -o-animation-name:g1;
+	 	 -o-animation-duration:20s;
+	 	 -o-animation-iteration-count:infinite;
+		 -apple-animation-name:g1;
+	 	 -apple-animation-duration:20s;
+	 	 -apple-animation-iteration-count:infinite;
+		 background-image:url(IITdelhi.jpg);
+		 border-radius:0px 0px 0px 0px;
+		 margin-left:8px;
+		 margin-right:8px;
+		 background-repeat:no-repeat;
+		 margin-top:5px;
+		 background-size:100% 100%;        
+		}
+@-webkit-keyframes g1
+		{
+
+			10%{background-image:url(IITGuwahati.jpg)}
+			30%{background-image:url(SRM.jpg)}
+			55%{background-image:url(IITKanpur.jpg)}
+			72%{background-image:url(mnnit.jpg)}
+			88%{background-image:url(DTU.jpg)}
+			100%{background-image:url(IITdelhi.jpg)}
+		}
+@-moz-keyframes g1
+		{
+
+			10%{background-image:url(IITGuwahati.jpg)}
+			30%{background-image:url(SRM.jpg)}
+			55%{background-image:url(IITKanpur.jpg)}
+			72%{background-image:url(mnnit.jpg)}
+			88%{background-image:url(DTU.jpg)}
+			100%{background-image:url(IITdelhi.jpg)}
+		}
+@-o-keyframes g1
+		{
+
+			10%{background-image:url(IITGuwahati.jpg)}
+			30%{background-image:url(SRM.jpg)}
+			55%{background-image:url(IITKanpur.jpg)}
+			72%{background-image:url(mnnit.jpg)}
+			88%{background-image:url(DTU.jpg)}
+			100%{background-image:url(IITdelhi.jpg)}
+		}
+@-apple-keyframes g1
+		{
+
+			10%{background-image:url(IITGuwahati.jpg)}
+			30%{background-image:url(SRM.jpg)}
+			55%{background-image:url(IITKanpur.jpg)}
+			72%{background-image:url(mnnit.jpg)}
+			88%{background-image:url(DTU.jpg)}
+			100%{background-image:url(IITdelhi.jpg)}
+		}
+
+#matter
+		{
+		  background-color:white;
+		  height:140px;
+		  font-size:25px;
+		  text-align:center;
+		  margin-left:8px;
+		  margin-right:8px;
+		  padding-top:30px;
+		  color:orange;
+		  border:3px solid orange;
+		}
+		
+#d6
+		{
+ 		  position:absoolute;	
+		  width:300px;
+		  height:190px;
+		  border:1px solid orange;	
+		  float:left;
+		  margin-top:50px;
+	  	  margin-left:10%;
+		  
+		}
+#news
+		{
+  		  position:absolute;
+		  left:52%;	
+		  width:400px;
+		  height:300px;
+		  border:1px solid orange;	
+		  margin-top:50px;
+	  	  
+		}
+#d12
+		{
+		  position:absolute;
+		  left:15%;	
+		  height:100px; 
+		  width:12%;	
+         	  margin-top:15px;
+	          
+		}
+#d8
+		{
+ 		  position:absolute;
+		  left:33%;	
+		  height:100px; 
+		  width:12%;
+		  float:left;
+         	  margin-top:15px;
+	          
+		}
+#d10
+		{
+ 		  position:absolute;
+		  left:51%;	
+		  height:100px; 
+		  width:12%;		
+		  margin-top:15px;
+		}
+#d20
+		{
+ 		  position:absolute; 
+		  left:69%;	
+		  height:100px; 
+		  width:12%;	
+		  margin-top:15px;
+		}
+#newd12
+		{
+		  position:absolute;
+		  left:15%;	
+		  height:100px; 
+		  width:12%;	
+         	  margin-top:15px; 
+		}
+#newd8
+		{
+ 		  position:absolute;
+		  left:33%;	
+		  height:100px; 
+		  width:12%;
+		  float:left;
+         	  margin-top:15px;
+	          
+		}
+#newd10
+		{
+ 		  position:absolute;
+		  left:51%;	
+		  height:100px; 
+		  width:12%;		
+		  margin-top:15px;
+		}
+#newd20
+		{
+ 		  position:absolute; 
+		  left:69%;	
+		  height:100px; 
+		  width:12%;	
+		  margin-top:15px;
+		}
+
+#login
+		{
+			 
+		  top:450px;
+		  left:725px;	
+		  width:400px;
+		  height:380px;
+		  float:left;	
+		  border:1px solid orange;
+        	  margin-top:50px;
+	          margin-left:300px;	
+		}
+#d13
+		{
+		  height:270px;
+		  width:300px;
+		  padding-top:20px;
+			
+		}
+#register
+		{
+ 		  top:450px;
+		  left:725px;	
+		  width:400px;
+		  height:820px;
+		  border:1px solid orange;	
+		  float:left;
+	          margin-top:10px;
+	          margin-left:300px;
+		}
+#d14
+		{
+		  height:270px;
+		  width:300px;
+		  padding-top:20px;
+
+		}
+#c
+		{
+		  width:100%;
+		  height:500px;
+		}
+#c1,#c2
+		{
+		   width:50%;
+		   float:left;
+  		   height:500px;
+		}
+#about
+		{
+		   width:100%;
+		   height:600px;
+		}
+#pics
+		{
+	
+			height:400px;
+			width:100%;
+			-webkit-animation-name:g2;
+			-webkit-animation-duration:20s;
+			-webkit-animation-iteration-count:infinite;
+			-moz-animation-name:g2;
+			-moz-animation-duration:20s;
+			-moz-animation-iteration-count:infinite;
+			-o-animation-name:g2;
+			-o-animation-duration:20s;
+			-o-animation-iteration-count:infinite;
+			-apple-animation-name:g2;
+			-apple-animation-duration:20s;
+			-apple-animation-iteration-count:infinite;
+			background-image:url(iit.jpg);
+			border-radius:0px 0px 0px 0px;
+			margin-left:0px;
+			background-repeat:no-repeat;
+			margin-top:5px;
+			background-size:100% 100%;
+  
+        
+		}
+@-webkit-keyframes g2
+		{
+
+			10%{background-image:url(course1.jpg)}
+			25%{background-image:url(bca1.jpg)}
+			43%{background-image:url(M4.jpg)}
+			55%{background-image:url(M6.jpg)}
+			72%{background-image:url(info3.jpg)}
+			88%{background-image:url(M10.jpg)}
+			100%{background-image:url(iit.jpg)}
+		}
+ @-moz-keyframes g2
+		{
+
+			10%{background-image:url(course1.jpg)}
+			25%{background-image:url(bca1.jpg)}
+			43%{background-image:url(M4.jpg)}
+			55%{background-image:url(M6.jpg)}
+			72%{background-image:url(info3.jpg)}
+			88%{background-image:url(M10.jpg)}
+			100%{background-image:url(iit.jpg)}
+		}
+ @-o-keyframes g2
+		{
+
+			10%{background-image:url(course1.jpg)}
+			25%{background-image:url(bca1.jpg)}
+			43%{background-image:url(M4.jpg)}
+			55%{background-image:url(M6.jpg)}
+			72%{background-image:url(info3.jpg)}
+			88%{background-image:url(M10.jpg)}
+			100%{background-image:url(iit.jpg)}
+		}
+ @-apple-keyframes g2
+		{
+
+			10%{background-image:url(course1.jpg)}
+			25%{background-image:url(bca1.jpg)}
+			43%{background-image:url(M4.jpg)}
+			55%{background-image:url(M6.jpg)}
+			72%{background-image:url(info3.jpg)}
+			88%{background-image:url(M10.jpg)}
+			100%{background-image:url(iit.jpg)}
+		}
+#video
+		{
+			position:absolute;
+			
+		}
+#gal
+		{
+	
+		 height:250px;
+		 width:25%;
+		 -webkit-animation-name:g3;
+	 	 -webkit-animation-duration:20s;
+	 	 -webkit-animation-iteration-count:infinite;
+		 -moz-animation-name:g3;
+	 	 -moz-animation-duration:20s;
+	 	 -moz-animation-iteration-count:infinite;
+		 -o-animation-name:g3;
+	 	 -o-animation-duration:20s;
+	 	 -o-animation-iteration-count:infinite;
+		 -apple-animation-name:g3;
+	 	 -apple-animation-duration:20s;
+	 	 -apple-animation-iteration-count:infinite;
+		 background-image:url(ani2.jpg);
+		 border-radius:0px 0px 0px 0px;
+		 margin-left:30%;
+		 background-repeat:no-repeat;
+		 background-size:100% 100%;        
+		}
+@-webkit-keyframes g3
+		{
+
+			10%{background-image:url(ani1.jpg)}
+			30%{background-image:url(ani2.jpg)}
+			55%{background-image:url(e1.jpg)}
+			72%{background-image:url(i1.jpg)}
+			88%{background-image:url(m1.jpg)}
+			100%{background-image:url(m2.jpg)}
+		}
+@-moz-keyframes g3
+		{
+
+			10%{background-image:url(ani1.jpg)}
+			30%{background-image:url(ani2.jpg)}
+			55%{background-image:url(e1.jpg)}
+			72%{background-image:url(i1.jpg)}
+			88%{background-image:url(m1.jpg)}
+			100%{background-image:url(m2.jpg)}
+		}
+@-o-keyframes g3
+		{
+
+			10%{background-image:url(ani1.jpg)}
+			30%{background-image:url(ani2.jpg)}
+			55%{background-image:url(e1.jpg)}
+			72%{background-image:url(i1.jpg)}
+			88%{background-image:url(m1.jpg)}
+			100%{background-image:url(m2.jpg)}
+		}
+@-apple-keyframes g3
+		{
+
+			10%{background-image:url(ani1.jpg)}
+			30%{background-image:url(ani2.jpg)}
+			55%{background-image:url(e1.jpg)}
+			72%{background-image:url(i1.jpg)}
+			88%{background-image:url(m1.jpg)}
+			100%{background-image:url(m2.jpg)}
+		}
+#gall
+		{
+	
+		 height:250px;
+		 width:25%;
+		 -webkit-animation-name:g4;
+	 	 -webkit-animation-duration:10s;
+	 	 -webkit-animation-iteration-count:infinite;
+		 -moz-animation-name:g4;
+	 	 -moz-animation-duration:10s;
+	 	 -moz-animation-iteration-count:infinite;
+		 -o-animation-name:g4;
+	 	 -o-animation-duration:10s;
+	 	 -o-animation-iteration-count:infinite;
+		 -apple-animation-name:g4;
+	 	 -apple-animation-duration:10s;
+	 	 -apple-animation-iteration-count:infinite;
+		 background-image:url(eth2.png);
+		 border-radius:0px 0px 0px 0px;
+		 margin-left:8px;
+		 margin-right:8px;
+		 background-repeat:no-repeat;
+		 margin-top:5px;
+		 background-size:100% 100%;        
+		}
+@-webkit-keyframes g4
+		{
+
+			50%{background-image:url(eth1.jpg)}
+			96%{background-image:url(eth4.jpg)}
+		}
+@-moz-keyframes g4
+		{
+
+			50%{background-image:url(eth1.jpg)}
+			96%{background-image:url(eth4.jpg)}
+		}
+@-o-keyframes g4
+		{
+
+			50%{background-image:url(eth1.jpg)}
+			96%{background-image:url(eth4.jpg)}
+		}
+@-apple-keyframes g4
+		{
+
+			50%{background-image:url(eth1.jpg)}
+			96%{background-image:url(eth4.jpg)}
+		}
+#courses
+		{
+			 width:100%;
+			 height:700px;
+		}
+
+#coll
+		{
+	
+		  height:250px;
+		  width:25%;
+		  -webkit-animation-name:g5;
+	 	  -webkit-animation-duration:20s;
+	 	  -webkit-animation-iteration-count:infinite;
+		  -moz-animation-name:g5;
+	 	  -moz-animation-duration:20s;
+	 	  -moz-animation-iteration-count:infinite;
+		  -o-animation-name:g5;
+	 	  -o-animation-duration:20s;
+	 	  -o-animation-iteration-count:infinite;
+		  -apple-animation-name:g5;
+	 	  -apple-animation-duration:20s;
+	 	  -apple-animation-iteration-count:infinite;
+		  background-image:url(L9.jpg);
+		  border-radius:0px 0px 0px 0px;
+		  margin-left:3px;
+		  margin-right:3px;
+		  background-repeat:no-repeat;
+	 	  margin-top:5px;
+		  background-size:100% 100%;
+		}
+@-webkit-keyframes g5
+		{
+		  
+		  25%{background-image:url(L4.jpg)}
+		  100%{background-image:url(RMLN.jpg)}
+		}
+@-moz-keyframes g5
+		{
+		  25%{background-image:url(L4.jpg)}
+		  100%{background-image:url(RMLN.jpg)}
+		}
+@-o-keyframes g5
+		{
+		  25%{background-image:url(L4.jpg)}
+		  100%{background-image:url(RMLN.jpg)}
+		}
+@-apple-keyframes g5
+		{
+		  25%{background-image:url(L4.jpg)}
+		  100%{background-image:url(RMLN.jpg)}
+		}
+
+#colleges
+		{
+		  height:250px;
+		  width:30%;
+		  -webkit-animation-name:g7;
+	   	  -webkit-animation-duration:15s;
+  		  -webkit-animation-iteration-count:infinite;
+		  -moz-animation-name:g7;
+	 	  -moz-animation-duration:15s;
+	 	  -moz-animation-iteration-count:infinite;
+		  -o-animation-name:g7;
+	 	  -o-animation-duration:15s;
+	 	  -o-animation-iteration-count:infinite;
+		  -apple-animation-name:g7;
+	 	  -apple-animation-duration:15s;
+	 	  -apple-animation-iteration-count:infinite;
+ 	  	  background-image:url(mba8.jpg);
+		  border-radius:0px 0px 0px 0px;
+		  margin-left:3px;
+		  margin-right:3px;
+		  background-repeat:no-repeat;
+		  margin-top:5px;
+		  background-size:100% 100%;    
+		}
+@-webkit-keyframes g7
+		{
+		  	33%{background-image:url(mba5.jpg)}
+			66%{background-image:url(mba6.jpg)}
+			99%{background-image:url(mba7.jpg)}
+		}
+@-moz-keyframes g7
+		{
+		  	33%{background-image:url(mba5.jpg)}
+			66%{background-image:url(mba6.jpg)}
+			99%{background-image:url(mba7.jpg)}
+		}
+@-o-keyframes g7
+		{
+		  	33%{background-image:url(mba5.jpg)}
+			66%{background-image:url(mba6.jpg)}
+			99%{background-image:url(mba7.jpg)}
+		}
+@-apple-keyframes g7
+		{
+		  	33%{background-image:url(mba5.jpg)}
+			66%{background-image:url(mba6.jpg)}
+			99%{background-image:url(mba7.jpg)}
+		}
+#micro
+		{
+	
+		  height:250px;
+		  width:25%;
+		  -webkit-animation-name:g8;
+	  	  -webkit-animation-duration:15s;
+	 	  -webkit-animation-iteration-count:infinite;
+		  -moz-animation-name:g8;
+	 	  -moz-animation-duration:15s;
+	 	  -moz-animation-iteration-count:infinite;
+		  -o-animation-name:g8;
+	 	  -o-animation-duration:15s;
+	 	  -o-animation-iteration-count:infinite;
+		  -apple-animation-name:g8;
+	 	  -apple-animation-duration:15s;
+	 	  -apple-animation-iteration-count:infinite;
+		  background-image:url(mb5.jpg);
+		  border-radius:0px 0px 0px 0px;
+		  margin-left:3px;
+		  margin-right:3px;
+		  background-repeat:no-repeat;
+		  margin-top:5px;
+		  background-size:100% 100%;      
+		}
+@-webkit-keyframes g8
+		{
+		  33%{background-image:url(mb6.jpg)}
+		  66%{background-image:url(mb4.jpg)}
+		  98%{background-image:url(mb3.jpg)}
+		}
+@-moz-keyframes g8
+		{
+		  33%{background-image:url(mb6.jpg)}
+		  66%{background-image:url(mb4.jpg)}
+		  98%{background-image:url(mb3.jpg)}
+		}
+@-o-keyframes g8
+		{
+		  33%{background-image:url(mb6.jpg)}
+		  66%{background-image:url(mb4.jpg)}
+		  98%{background-image:url(mb3.jpg)}
+		}
+@-apple-keyframes g8
+		{
+		  33%{background-image:url(mb6.jpg)}
+		  66%{background-image:url(mb4.jpg)}
+		  98%{background-image:url(mb3.jpg)}
+		}
+#galo
+		{
+	
+		  height:300px;
+		  width:40%;
+		  -webkit-animation-name:g9;
+	  	  -webkit-animation-duration:20s;
+	 	  -webkit-animation-iteration-count:infinite;
+		  -moz-animation-name:g9;
+	 	  -moz-animation-duration:20s;
+	 	  -moz-animation-iteration-count:infinite;
+		  -o-animation-name:g9;
+	 	  -o-animation-duration:20s;
+	 	  -o-animation-iteration-count:infinite;
+		  -apple-animation-name:g9;
+	 	  -apple-animation-duration:20s;
+	 	  -apple-animation-iteration-count:infinite;
+		  background-image:url(eth1.jpg);
+		  border-radius:0px 0px 0px 0px;
+		  margin-left:30%;
+		  background-repeat:no-repeat;
+		  margin-top:5px;
+		  background-size:100% 100%;      
+		}
+@-webkit-keyframes g9
+		{
+		  10%{background-image:url(L2.jpg)}
+	  	  25%{background-image:url(S.jpg)}
+		  43%{background-image:url(cm7.jpg)}
+		  55%{background-image:url(mb1.jpg)}
+		  72%{background-image:url(cm2.jpg)}
+		  88%{background-image:url(eth4.jpg)}
+		  100%{background-image:url(anim9.jpg)}
+		}
+@-moz-keyframes g9
+		{
+		  10%{background-image:url(L2.jpg)}
+	  	  25%{background-image:url(S.jpg)}
+		  43%{background-image:url(cm7.jpg)}
+		  55%{background-image:url(mb1.jpg)}
+		  72%{background-image:url(cm2.jpg)}
+		  88%{background-image:url(eth4.jpg)}
+		  100%{background-image:url(anim9.jpg)}
+		}
+@-o-keyframes g9
+		{
+		  10%{background-image:url(L2.jpg)}
+	  	  25%{background-image:url(S.jpg)}
+		  43%{background-image:url(cm7.jpg)}
+		  55%{background-image:url(mb1.jpg)}
+		  72%{background-image:url(cm2.jpg)}
+		  88%{background-image:url(eth4.jpg)}
+		  100%{background-image:url(anim9.jpg)}
+		}
+@-apple-keyframes g9
+		{
+		  10%{background-image:url(L2.jpg)}
+	  	  25%{background-image:url(S.jpg)}
+		  43%{background-image:url(cm7.jpg)}
+		  55%{background-image:url(mb1.jpg)}
+		  72%{background-image:url(cm2.jpg)}
+		  88%{background-image:url(eth4.jpg)}
+		  100%{background-image:url(anim9.jpg)}
+		}
+#btech
+		{
+	
+		  height:250px;
+		  width:25%;
+		  -webkit-animation-name:g10;
+	   	  -webkit-animation-duration:10s;
+  		  -webkit-animation-iteration-count:infinite;
+		  -moz-animation-name:g10;
+	 	  -moz-animation-duration:10s;
+	 	  -moz-animation-iteration-count:infinite;
+		  -o-animation-name:g10;
+	 	  -o-animation-duration:10s;
+	 	  -o-animation-iteration-count:infinite;
+		  -apple-animation-name:g10;
+	 	  -apple-animation-duration:10s;
+	 	  -apple-animation-iteration-count:infinite;
+ 	  	  background-image:url(btech3.jpg);
+		  border-radius:0px 0px 0px 0px;
+		  margin-left:3px;
+		  margin-right:3px;
+		  background-repeat:no-repeat;
+		  margin-top:5px;
+		  background-size:100% 100%;    
+		}
+@-webkit-keyframes g10
+		{
+		  	33%{background-image:url(btech5.jpg)}
+			66%{background-image:url(btech3.jpg)}
+			99%{background-image:url(btech7.jpg)}
+		}
+@-moz-keyframes g10
+		{
+		  	33%{background-image:url(btech5.jpg)}
+			66%{background-image:url(btech3.jpg)}
+			99%{background-image:url(btech7.jpg)}
+		}
+@-o-keyframes g10
+		{
+		  	33%{background-image:url(btech5.jpg)}
+			66%{background-image:url(btech3.jpg)}
+			99%{background-image:url(btech7.jpg)}
+		}
+@-apple-keyframes g10
+		{
+		  	33%{background-image:url(btech5.jpg)}
+			66%{background-image:url(btech3.jpg)}
+			99%{background-image:url(btech7.jpg)}
+		}
+#anim
+		{
+	
+		  height:200px;
+		  width:20%;
+		  -webkit-animation-name:g11;
+	   	  -webkit-animation-duration:10s;
+  		  -webkit-animation-iteration-count:infinite;
+		  -moz-animation-name:g11;
+	 	  -moz-animation-duration:10s;
+	 	  -moz-animation-iteration-count:infinite;
+		  -o-animation-name:g11;
+	 	  -o-animation-duration:10s;
+	 	  -o-animation-iteration-count:infinite;
+		  -apple-animation-name:g11;
+	 	  -apple-animation-duration:10s;
+	 	  -apple-animation-iteration-count:infinite;
+ 	  	  background-image:url(anim8.JPG);
+		  border-radius:0px 0px 0px 0px;
+		  margin-left:3px;
+		  margin-right:3px;
+		  background-repeat:no-repeat;
+		  margin-top:5px;
+		  background-size:100% 100%;    
+		}
+@-webkit-keyframes g11
+		{
+		  	33%{background-image:url(anim1.jpg)}
+			66%{background-image:url(anim8.JPG)}
+			99%{background-image:url(anim2.jpg)}
+		}
+@-moz-keyframes g11
+		{
+		  	33%{background-image:url(anim1.jpg)}
+			66%{background-image:url(anim8.JPG)}
+			99%{background-image:url(anim2.jpg)}
+		}
+@-o-keyframes g11
+		{
+		  	33%{background-image:url(anim1.jpg)}
+			66%{background-image:url(anim8.JPG)}
+			99%{background-image:url(anim2.jpg)}
+		}
+@-apple-keyframes g11
+		{
+		  	33%{background-image:url(anim1.jpg)}
+			66%{background-image:url(anim8.JPG)}
+			99%{background-image:url(anim2.jpg)}
+		}
+#arts
+		{
+	
+		  height:250px;
+		  width:25%;
+		  -webkit-animation-name:g12;
+	   	  -webkit-animation-duration:10s;
+  		  -webkit-animation-iteration-count:infinite;
+		  -moz-animation-name:g12;
+	 	  -moz-animation-duration:10s;
+	 	  -moz-animation-iteration-count:infinite;
+		  -o-animation-name:g12;
+	 	  -o-animation-duration:10s;
+	 	  -o-animation-iteration-count:infinite;
+		  -apple-animation-name:g12;
+	 	  -apple-animation-duration:10s;
+	 	  -apple-animation-iteration-count:infinite;
+ 	  	  background-image:url(arts2.jpg);
+		  border-radius:0px 0px 0px 0px;
+		  margin-left:3px;
+		  margin-right:3px;
+		  background-repeat:no-repeat;
+		  margin-top:5px;
+		  background-size:100% 100%;    
+		}
+@-webkit-keyframes g12
+		{
+		  	33%{background-image:url(L4.jpg)}
+			66%{background-image:url(arts2.jpg)}
+			99%{background-image:url(arts1.jpg)}
+		}
+@-moz-keyframes g12
+		{
+		  	33%{background-image:url(L4.jpg)}
+			66%{background-image:url(arts2.jpg)}
+			99%{background-image:url(arts1.jpg)}
+		}
+@-o-keyframes g12
+		{
+		  	33%{background-image:url(L4.jpg)}
+			66%{background-image:url(arts2.jpg)}
+			99%{background-image:url(arts1.jpg)}
+		}
+@-apple-keyframes g12
+		{
+		  	33%{background-image:url(L4.jpg)}
+			66%{background-image:url(arts2.jpg)}
+			99%{background-image:url(arts1.jpg)}
+		}
+#commerce
+		{
+	
+		  height:250px;
+		  width:25%;
+		  -webkit-animation-name:g13;
+		  -webkit-animation-duration:10s;
+		  -webkit-animation-iteration-count:infinite;
+		  -moz-animation-name:g13;
+	 	  -moz-animation-duration:10s;
+	 	  -moz-animation-iteration-count:infinite;
+		  -o-animation-name:g13;
+	 	  -o-animation-duration:10s;
+	 	  -o-animation-iteration-count:infinite;
+		  -apple-animation-name:g13;
+	 	  -apple-animation-duration:10s;
+	 	  -apple-animation-iteration-count:infinite;
+		  background-image:url(cm7.jpg);
+		  border-radius:0px 0px 0px 0px;
+		  margin-left:3px;
+		  margin-right:3px;
+	   	  background-repeat:no-repeat;
+	 	  margin-top:5px;
+		  background-size:100% 100%;     
+		}
+@-webkit-keyframes g13
+		{
+
+			50%{background-image:url(cm8.jpg)}
+			95%{background-image:url(cm6.jpg)}
+		}
+@-moz-keyframes g13
+		{
+
+			50%{background-image:url(cm8.jpg)}
+			95%{background-image:url(cm6.jpg)}
+		}
+@-o-keyframes g13
+		{
+
+			50%{background-image:url(cm8.jpg)}
+			95%{background-image:url(cm6.jpg)}
+		}
+@-apple-keyframes g13
+		{
+
+			50%{background-image:url(cm8.jpg)}
+			95%{background-image:url(cm6.jpg)}
+		}
+#design
+		{
+	
+		  height:250px;
+		  width:25%;
+		  -webkit-animation-name:g14;
+		  -webkit-animation-duration:10s;
+		  -webkit-animation-iteration-count:infinite;
+		  -moz-animation-name:g14;
+	 	  -moz-animation-duration:10s;
+	 	  -moz-animation-iteration-count:infinite;
+		  -o-animation-name:g14;
+	 	  -o-animation-duration:10s;
+	 	  -o-animation-iteration-count:infinite;
+		  -apple-animation-name:g14;
+	 	  -apple-animation-duration:10s;
+	 	  -apple-animation-iteration-count:infinite;
+		  background-image:url(f7.jpg);
+		  border-radius:0px 0px 0px 0px;
+		  margin-left:3px;
+		  margin-right:3px;
+	  	  background-repeat:no-repeat;
+		  margin-top:5px;
+		  background-size:100% 100%;        
+		}
+@-webkit-keyframes g14
+		{
+			33%{background-image:url(f4.jpg)}
+			66%{background-image:url(f7.jpg)}
+			96%{background-image:url(f6.jpg)}
+		}
+@-moz-keyframes g14
+		{
+
+			33%{background-image:url(f4.jpg)}
+			66%{background-image:url(f7.jpg)}
+			96%{background-image:url(f6.jpg)}
+		}
+@-o-keyframes g14
+		{
+
+			33%{background-image:url(f4.jpg)}
+			66%{background-image:url(f7.jpg)}
+			96%{background-image:url(f6.jpg)}
+		}
+@-apple-keyframes g14
+		{
+
+			33%{background-image:url(f4.jpg)}
+			66%{background-image:url(f7.jpg)}
+			96%{background-image:url(f6.jpg)}
+		}
+#info
+		{
+	
+		  height:250px;
+		  width:30%;
+		  -webkit-animation-name:g15;
+		  -webkit-animation-duration:10s;
+		  -webkit-animation-iteration-count:infinite;
+		  -moz-animation-name:g15;
+	 	  -moz-animation-duration:10s;
+	 	  -moz-animation-iteration-count:infinite;
+		  -o-animation-name:g15;
+	 	  -o-animation-duration:10s;
+	 	  -o-animation-iteration-count:infinite;
+		  -apple-animation-name:g15;
+	 	  -apple-animation-duration:10s;
+	 	  -apple-animation-iteration-count:infinite;
+		  background-image:url(info1.jpg);
+		  border-radius:0px 0px 0px 0px;
+		  margin-left:30%;
+	   	  background-repeat:no-repeat;
+	 	  margin-top:5px;
+		  background-size:100% 100%;     
+		}
+@-webkit-keyframes g15
+		{
+
+			50%{background-image:url(info2.jpg)}
+			95%{background-image:url(info3.jpg)}
+		}
+@-moz-keyframes g15
+		{
+
+			50%{background-image:url(info2.jpg)}
+			95%{background-image:url(info3.jpg)}
+		}
+@-o-keyframes g15
+		{
+
+			50%{background-image:url(info2.jpg)}
+			95%{background-image:url(info3.jpg)}
+		}
+@-apple-keyframes g15
+		{
+
+			50%{background-image:url(info2.jpg)}
+			95%{background-image:url(info3.jpg)}
+		}
+</style>
+</head>
+</html>
